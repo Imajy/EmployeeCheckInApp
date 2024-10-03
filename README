@@ -1,0 +1,15 @@
+Employee Check-In & Check-Out System
+This project is an Employee Check-In & Check-Out System, developed using Jetpack Compose with MVVM architecture. It allows employees to check in and check out from their workplace, logging their exact time and location using latitude and longitude. Admins can monitor employee check-ins and checkouts, including viewing the corresponding addresses on a map.
+
+Features
+Check-In/Check-Out: Employees can check in and out, and their location (latitude/longitude) is recorded.
+Map Integration: Displays the employee's check-in and check-out locations on a map.
+Admin Dashboard: Admins can view detailed information, including check-in/check-out addresses.
+MVVM Architecture: Clean architecture for easy scalability and maintainability.
+Hilt Integration: Used for dependency injection, ensuring efficient and clean code structure.
+Technologies Used
+Jetpack Compose: For building the UI.
+MVVM Architecture: For separation of concerns.
+Hilt: For dependency injection.
+Room Database: For local storage of check-in/check-out data.
+Google Maps API: For showing the user’s location on a map.
